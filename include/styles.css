@@ -1,0 +1,78 @@
+table.meniu {
+    text-align: center;
+    background-color:rgb(161, 65, 103);
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #a14167;
+    padding: 1px;
+    background-color: #6e1f3e; 
+	color: white;
+}
+table.backlink {  
+    margin-left:auto; 
+    margin-right:auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-width: 13px;
+    border-style: solid;
+    border-color: red;    
+    background-color: #6e1f3e; 
+	color: white;
+}
+body {
+    text-align:center;
+	color: white;
+}   
+form.login {
+    margin-bottom:0;
+    padding:6px; 
+    background-color: #a14167; 
+    border:3px dashed #a14167;
+	color: white;
+}
+input.s1 {   
+    width:100%;
+	padding: 1px;
+    font-size:13pt;
+    text-align:left;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid black;
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input {
+	color: white;
+    background-color: #6e1f3e;
+    border-color: #b14c76;
+}
+
+select {
+	color: white;
+    background-color: #6e1f3e;
+    border-color: #b14c76;
+}
